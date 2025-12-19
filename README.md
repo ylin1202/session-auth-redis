@@ -5,7 +5,6 @@ This project demonstrates secure session-based authentication using Redis as a c
 
 The system is designed with stateless backend servers, allowing horizontal scalability across multiple server instances.
 
----
 
 ## ✨ Features
 
@@ -19,7 +18,6 @@ The system is designed with stateless backend servers, allowing horizontal scala
 - Proper HTTP status codes and error handling
 - Multi-server support with shared session state
 
----
 
 ## 🏗 Architecture Overview
 
@@ -40,7 +38,6 @@ Node.js / Express Server
 - User credentials are persisted in SQLite
 - Backend servers are stateless and interchangeable
 
----
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -87,7 +84,6 @@ Server runs at:
 http://localhost:3000
 ```
 
----
 ## 🧪 API Endpoints
 
 ### 1. Register
@@ -127,8 +123,6 @@ Requires a valid session cookie.
 ```text
 POST /auth/logout
 ```
-
----
 
 ## 🔁 Session Management
 
